@@ -39,8 +39,13 @@
     width: 55%;
     float: left;
     display: flex;
+    justify-content: center;
     background-color: skyblue;
     height: 100%;
+}
+.col-55 h1, label {
+    color: white;
+    width: max(500px, 100%);
 }
 
 .col-55 .form-group {
@@ -51,7 +56,7 @@
     width: 100%;
 }
 .col-55 .form-group textarea{
-    width: 100%;
+   width: 100%;
 }
 .col-55 button {
     margin: 10px;

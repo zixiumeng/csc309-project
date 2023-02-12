@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+.container {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.container .upcoming td {
+    background-color: antiquewhite;
+}
+
+.container td {
+    /* background-color: antiquewhite; */
+    padding: 10px;
+    text-align: center;
+    border-color:white;
+    border-style: solid;
+    border-width: 0px 0px 30px 0px;
+}
+
+.container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.container p {
+    width: 20rem;
+    line-height: 100px;
+}
+.container .date {
+    width: 20rem;
+    line-height: 100px;
+}
+.container .completed td {
+    background-color: orange;
+}
