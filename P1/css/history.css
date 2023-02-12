@@ -7,9 +7,13 @@
     width: 100%;
     align-items: flex-start;
 }
+h1 {
+    color:navy;
+    padding: 30px
+}
 
 .container .upcoming td {
-    background-color: antiquewhite;
+    background-color: hsl(197, 71%, 73%);
 }
 
 .container td {
@@ -29,11 +33,13 @@
 .container p {
     width: 20rem;
     line-height: 100px;
+    font-weight: bold;
 }
 .container .date {
     width: 20rem;
     line-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .container .completed td {
-    background-color: orange;
+    background-color: rgb(35, 136, 182);
 }
