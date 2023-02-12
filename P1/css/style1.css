@@ -7,31 +7,40 @@ body{
 
 }
 
-header {
+body header {
     position: absolute;
     top: 0px;
     bottom: auto;
-    left: 00px;
+    left: 0px;
     right: 0px;
-    height: 3rem;
+    height: 7rem;
     background-color: white;
+    display: flex;
+    flex-direction: row
+    align-items: center;
 }
 
-header ul{
+body header ul{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
 }
 
-header ul.submenu{
+body header ul.submenu{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start
 }
 
-main {
+body header ul.submenu summary{
+    display: none;
+}
+
+/*main {
     position: absolute;
     top: 6rem;
     left: 0px;
@@ -43,7 +52,7 @@ main {
     align-content: center;
     align-items: center
 
-}
+}*/
 
 /*
 main form {
@@ -55,7 +64,7 @@ main form {
 
 }*/
 
-main form ul {
+/*main form ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -89,5 +98,5 @@ main form ul li input {
     justify-content: flex-end
     width: 60%;
     border: 1px solid yellow
-}
+}*/
 
