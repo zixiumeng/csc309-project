@@ -24,6 +24,13 @@ header ul{
     list-style: none;
 }
 
+header ul.submenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
 main {
     position: absolute;
     top: 6rem;
@@ -83,3 +90,4 @@ main form ul li input {
     width: 60%;
     border: 1px solid yellow
 }
+
