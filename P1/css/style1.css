@@ -100,5 +100,23 @@ main form ul li input {
     border: 1px solid yellow
 }*/
 
-footer
+body footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 3rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+
+}
+
+body footer p{
+    color: black;
+    background-color: white;
+}
+
 

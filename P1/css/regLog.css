@@ -12,7 +12,7 @@ main.login {
     position: absolute;
     top: 7rem;
     width: 100%;
-    height: 70vh;
+    height: calc(100vh - 7rem - 3rem);
     background-image: url("https://image.cnbcfm.com/api/v1/image/107178919-1673854215895-gettyimages-669463000-shutterstock_621020393.jpeg?v=1674003106");
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,8 +108,8 @@ main.login div.registerOverlay button{
 main.register {
     position: absolute;
     top: 7rem;
-    width: 100%;
-    height: 70vh;
+    width: 100vw;
+    height: calc(100vh - 7rem - 3rem);
     background-image: url("https://image.cnbcfm.com/api/v1/image/107178919-1673854215895-gettyimages-669463000-shutterstock_621020393.jpeg?v=1674003106");
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
