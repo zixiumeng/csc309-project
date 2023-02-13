@@ -14,7 +14,7 @@ body main.userAccount{
     align-items: center;
     align-content: center;
     overflow-x: hidden;
-    border: 1px solid red
+
 }
 
 main.userAccount div.aboutMe{
@@ -25,7 +25,7 @@ main.userAccount div.aboutMe{
     flex-direction: column;
     justify-content: center;
     align-content: flex-start;
-    border: 1px solid red
+
 
 }
 
@@ -44,7 +44,7 @@ main.userAccount div.personalInfo{
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: 1px solid red
+
 }
 
 main.userAccount div.personalInfo div.portrait{
@@ -55,14 +55,14 @@ main.userAccount div.personalInfo div.portrait{
     background-image: url("https://media.gq.com.tw/photos/6239445a7e6557df4af61f16/1:1/w_1600%2Cc_limit/site.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    border: 1px solid red
+
 }
 
 main.userAccount div.personalInfo ul.info{
     position: absolute;
     right: 0px;
     width: 65%;
-    border: 1px solid yellow
+
 }
 
 main.userAccount div.personalInfo ul.info li{
@@ -70,7 +70,7 @@ main.userAccount div.personalInfo ul.info li{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 1px solid yellow
+
 
 }
 
@@ -88,7 +88,6 @@ body main.userAccount div.myRenting{
     flex-direction: column;
     align-items: left;
     align-content: left;
-    border: 1px solid red
 }
 
 main.userAccount div.myRenting ul{
@@ -114,7 +113,7 @@ main.userAccount div.myRenting div.rentingInfo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red
+
 }
 
 /*main.userAccount div.myRenting div.rentingInfo div[class~="renting"]{
@@ -147,7 +146,7 @@ body main.userAccount div.myProperty{
     flex-direction: column;
     align-items: left;
     align-content: left;
-    border: 1px solid red
+
 }
 
 main.userAccount div.myProperty ul{
@@ -173,7 +172,7 @@ main.userAccount div.myProperty div.rentingInfo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red
+
 }
 
 main.userAccount div.myProperty div.rentingInfo img{
