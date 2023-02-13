@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ccc3c61-7374-4372-b941-6331a61a8d73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csc309-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/group_2788.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P1/htmls/RegLog/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/P1/htmls/RegLog/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1/htmls/RegLog/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/P1/htmls/RegLog/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P1/htmls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/P1/htmls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1/htmls/users/UserAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/P1/htmls/users/UserAccount.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
