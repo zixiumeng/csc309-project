@@ -4,11 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSC309 P1 - View history</title>
+  <link href="/P1/css/style1.css" rel="stylesheet">
   <link rel="stylesheet" href='../../css/history.css'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+    <header>
+        <ul>
+          <li>Restiful, bring the world to you</li>
+          <li>Travelling to</li>
+          <li>
+             <details>
+                 <summary>earth</summary>
+                 <ul class="submenu">
+                      <li><a href="login.html">Sign In</a></li>
+                      <li><a href="register.html">Sign Up</a></li>
+                      <li><a href="I have a property to post">Post Your Property</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                 </ul>
+             </details>
+ 
+          </li>
+       </ul>
+ </header>
+ <main>
     <h1>Upcoming: </h1>
     <div class="container">
         <div class="upcoming">
@@ -23,6 +43,9 @@
                 <td>
                     <div class="date"> From 2023 Feb 22 to 2023 Feb 24</div>
                 </td>
+                <td>
+                    <button type="btn btn-primary"><a href="../users/contact.html">Change the reservation</a></button>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -33,6 +56,9 @@
                 </td>
                 <td>
                    <div class="date">From 2023 Mar 03 to 2023 Mar 04</div> 
+                </td>
+                <td>
+                    <button type="btn btn-primary"><a href="../users/contact.html">Change the reservation</a></button>
                 </td>
                 
             </tr>
@@ -51,7 +77,10 @@
                         <p>Duck Hotel</p>
                     </td>
                     <td>
-                        <div class="date"> From 2023 Feb 22 to 2023 Feb 24</div>
+                        <div class="date"> From 2022 Feb 22 to 2023 Feb 24</div>
+                    </td>
+                    <td>
+                        <button type="btn btn-primary"><a href="../users/rating.html">Rate the hotel</a></button>
                     </td>
                 </tr>
                 <tr>
@@ -62,13 +91,16 @@
                         <p>Le Capitole Hotel</p>
                     </td>
                     <td>
-                       <div class="date">From 2023 Mar 03 to 2023 Mar 04</div> 
+                       <div class="date">From 2022 Mar 03 to 2023 Mar 04</div> 
+                    </td>
+                    <td>
+                        <button type="btn btn-primary"><a href="../users/rating.html">Rate the hotel</a></button>
                     </td>
                     
                 </tr>
                 </table>
         </div>
     </div>
-
+</main>
 </body>
 </html>
